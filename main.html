@@ -9,20 +9,47 @@
     <body>
         <div class="form-container">
         <h1> Stardew Valley Profit Calculator </h1>
+        <table> 
         <form id="myForm">
-            <label for ="season"> Which Season?</label>
-            <select id="season" name="season">
-                <option value="Spring">Spring</option>
-                <option value="Summer">Summer</option>
-                <option value="Fall">Fall</option>
-                <option value="Winter">Winter</option>
+            <tr>
+                <td><label for ="season">Season:</label></td>
+                <td>
+                 <select id="season" name="season">
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Fall">Fall</option>
+                    <option value="Winter">Winter</option>
             </select>
-            <br>
-            <label for="numberSelect">Days Left in the Season:</labelfor>
-            <input type="number" id="numberSelect" name="numberSelect" min="1" max="5">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="numberSelect">Days Left:</labelfor>
+                </td>
+                <td>
+                    <input type="number" id="numberSelect" name="numberSelect" min="1" max="28">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for ="farm"> Farm Type:</label>
+                </td>
+                <td>
+                    <select id="farm" name="farm">
+                    <option value="Hilltop">Hilltop Farm</option>
+                    <option value="Wilderness">Wilderness Farm</option>
+                    <option value="Forest">Forest Farm</option>
+                    <option value="Riverland">Riverland Farm</option>
+                    <option value="Beach">Beach Farm</option>
+                    <option value="Standard">Standard Farm</option>
+                    <option value="Four">Four Corners Farm</option>
+                    </select>
+                </td>
+
         </form>
         <script src="my_script.js">
         </script>
+        </table>
+        </div>
     </body>
-    </div>
 </html>
