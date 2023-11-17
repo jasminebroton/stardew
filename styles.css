@@ -1,0 +1,39 @@
+body {
+   background-color: #BCB88A;
+   width: 100%;
+   border: 15px white;
+   padding: 50px;
+   margin: 20px;
+}
+.form-container {
+   width: 25%;
+   margin: 0 auto;
+   background-color: #ffffff; 
+   padding: 20px; 
+   border: 10px solid #ccc;
+   border-radius: 5px; 
+   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+   font-family: 'Stardew', sans-serif;
+   font-size: 36px;
+   
+ }
+input[type=number] {
+width: 15%;
+margin: 0 auto;
+}
+h1 {
+   font-size: 50px;
+   text-align: center;
+}
+@font-face {
+   font-family: 'Stardew';
+   src: 
+   url('Stardew_Valley.otf') format('opentype'),
+   url('Stardew_Valley.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+input[type=submit]{
+   font-family: 'Stardew', sans-serif;
+   font-size: 24px;
+}
